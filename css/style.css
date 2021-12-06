@@ -6,11 +6,64 @@
     --first-color: #9356dc;
     --second-color: #ff79da;
     --third-color: #99e2d0;
+    --fourth-color: #eaeaea;
 }
-
+body {
+    margin: 0px;
+    font-family: Roboto, Shrikhand , sans-serif;
+}
+a{
+    text-decoration: none; color: black;
+}
 /* Header */
 .logo {
     width: 50%;
     margin: 10px 80px;
     padding: 10px;
 }
+.formulaire {
+    background-color: var(--fourth-color);
+    height: 50px;
+    box-shadow: inset 0px 2px 4px 0px rgba(128 128 128 / 33%);
+    padding: 0px 35px 0 40px;
+}
+.iconemap{
+    padding: 15px 0 0 50px;
+}
+.box {
+    font-weight: bolder;
+    padding: 15px 0 0 50px;
+    border: none;
+    background-color: transparent;
+    padding: 15px 0 15px 20px;
+    font-size: 15px;
+}
+
+.section1 {
+    text-align: center;
+    background: linear-gradient(0deg, #f7f7f7, transparent);
+}
+h1 {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px 50px 0 50px;
+    margin-bottom: 0px;
+}
+.subtitle {
+    font-family: Roboto;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 300;
+    padding: 14px 30px;
+    margin-top: 0px;
+}
+.searchrestaurants {
+    padding: 15px;
+    background: linear-gradient(168deg, var(--second-color), var(--first-color));
+    border-radius: 25px;
+    box-shadow: 4px 4px 12px #bfbfbf;
+    font-family: Roboto;
+    color: white;
+} 
