@@ -17,14 +17,14 @@ a{
 }
 /* Header */
 .logo {
-    width: 50%;
-    margin: 10px 80px;
+    width: 45%;
+    margin: 15px 80px 5px 80px;
     padding: 10px;
 }
 .formulaire {
-    background-color: var(--fourth-color);
+    background: linear-gradient(180deg, var(--fourth-color), #eee);
     height: 50px;
-    box-shadow: inset 0px 2px 4px 0px rgba(128 128 128 / 33%);
+    box-shadow: inset 0px 2px 3px 0px #d8d8d8;
     padding: 0px 35px 0 40px;
 }
 .iconemap{
@@ -38,10 +38,11 @@ a{
     padding: 15px 0 15px 20px;
     font-size: 15px;
 }
-
+/* Section 1 */
 .section1 {
     text-align: center;
     background: linear-gradient(0deg, #f7f7f7, transparent);
+    height: 260px;
 }
 h1 {
     font-family: Roboto;
@@ -57,7 +58,7 @@ h1 {
     text-align: center;
     font-weight: 300;
     padding: 14px 30px;
-    margin-top: 0px;
+    margin: 0px 0px 30px 0px;
 }
 .searchrestaurants {
     padding: 15px;
@@ -67,3 +68,50 @@ h1 {
     font-family: Roboto;
     color: white;
 } 
+/* Section 2 */
+.section2 {
+    text-align: center;
+    margin: 50px 0 0 10px;
+    height: 380px;
+}
+.titlemenu {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 0 10px 10px;
+}
+.menunav{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: linear-gradient(180deg, #f7f7f7, transparent);
+    border-radius: 20px;
+    box-shadow: 0px 7px 12px 0px #eaeaea;
+    min-height: 72px;
+    margin: 0 18px 0 25px;
+    cursor: pointer;
+}
+span {
+    position: relative;
+    left: -15px;
+    background-color: var(--first-color);
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.iconemenu{
+    padding: 0 15px 0 0;
+    color: #7e7e7e;
+}
+.textmenu {
+    font-weight: bolder;
+}
