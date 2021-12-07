@@ -115,3 +115,10 @@ span {
 .textmenu {
     font-weight: bolder;
 }
+
+/* Section 3 */
+.title2 {
+    padding: 55px 0 0 20px;
+    font-weight: 800;
+    font-size: 25px;
+}
