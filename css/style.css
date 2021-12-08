@@ -118,6 +118,7 @@ span {
 /* Section 3 */
 .section3 {
     background-color: #f7f7f7;
+    height: 1210px;
 }
 .title2 {
     padding: 55px 0 0 20px;
@@ -171,4 +172,33 @@ span {
 }
 .heart {
     font-size: 20px;
+}
+/* Footer */
+footer {
+    background-color: #353535;
+    height: 150px;
+    padding: 25px;
+}
+.titlefooter {
+    color: white;
+    font-family: 'Shrikhand', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+.stylelink{
+    display: flex;
+    align-items: baseline;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    gap: 10px;
+}
+.stylep1 {
+    margin: 0;
+    padding: 10px 0 0 7px;
+}
+.stylep {
+    margin: 0;
+    padding: 10px 0 0 0;
 }
