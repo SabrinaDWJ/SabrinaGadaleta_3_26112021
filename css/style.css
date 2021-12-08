@@ -38,6 +38,16 @@ a{
     padding: 15px 0 15px 20px;
     font-size: 15px;
 }
+/* Header Menu*/
+.headerstyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow {
+    font-size: 20px;
+    padding: 0 0 0 30px;
+}
 /* Section 1 */
 .section1 {
     text-align: center;
@@ -94,6 +104,10 @@ h1 {
     min-height: 72px;
     margin: 0 18px 0 25px;
     cursor: pointer;
+}
+.menunav :hover {
+    background-color: #f5edff;
+    color: var(--first-color);
 }
 span {
     position: relative;
@@ -172,6 +186,35 @@ span {
 }
 .heart {
     font-size: 20px;
+}
+/* Section Menu */
+.containerimage {
+    width: 100%;
+    height: 175px;
+}
+.image {
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+}
+.sectionmenu {
+    background-color: #f6f6f6;
+    width: 100%;
+    border-radius: 25px;
+    position: absolute;
+}
+.containertitle {
+    display: flex;
+    align-items: baseline;
+}
+.menutitle {
+    font-family: 'Shrikhand';
+    font-size: 24px;
+    font-weight: 400;
+    padding-left: 20px;
+}
+.hearttitle {
+    font-size: 24px;
 }
 /* Footer */
 footer {
