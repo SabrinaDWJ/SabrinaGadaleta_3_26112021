@@ -115,10 +115,60 @@ span {
 .textmenu {
     font-weight: bolder;
 }
-
 /* Section 3 */
+.section3 {
+    background-color: #f7f7f7;
+}
 .title2 {
     padding: 55px 0 0 20px;
     font-weight: 800;
     font-size: 25px;
+}
+.containercards {
+    background-color: white;
+    border-radius: 25px;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 15px 15px 15px;
+    box-shadow: 6px 6px 4px #e9e9e9;
+}
+.card {
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+.newbox {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 80px;
+    height: 30px;
+    background-color: var(--third-color);
+    color: #008766;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photocard {
+    width: 100%;
+    height: 175px;
+    border-radius: 19px 19px 0 0;
+}
+.titlecard {
+    margin: 3px 0 3px 15px;
+}
+.pcard {
+    margin: 0 0 0 15px;
+}
+.iconeposition {
+    position: absolute;
+    right: 10px;
+    bottom: 40px;
+}
+.heart {
+    font-size: 20px;
 }
