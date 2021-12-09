@@ -12,7 +12,7 @@ body {
     margin: 0px;
     font-family: Roboto, Shrikhand , sans-serif;
 }
-a{
+a {
     text-decoration: none; color: black;
 }
 /* Header */
@@ -215,6 +215,44 @@ span {
 }
 .hearttitle {
     font-size: 24px;
+}
+.containermenu {
+    padding: 0 10px;
+}
+.titleplates {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.linegreen {
+    background-color: var(--third-color);
+    height: 4px;
+    width: 40px;
+    margin-bottom: 20px;
+}
+.listplates {
+    background-color: white;
+    border-radius: 20px;
+    height:60px;
+    margin: 0 0 10px 0;
+}
+.items1 {
+    margin: 0;
+    padding: 10px 0 0 10px;
+}
+.prix {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.items2 {
+    margin: 0;
+    font-size: 14px;
+}
+.items3 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 14px;
 }
 /* Footer */
 footer {
