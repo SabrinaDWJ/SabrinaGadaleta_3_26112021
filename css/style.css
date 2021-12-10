@@ -16,12 +16,17 @@ a {
     text-decoration: none; color: black;
 }
 /* Header */
+.imagelogo{
+    display: flex;
+    justify-content: center;
+}
 .logo {
-    width: 45%;
-    margin: 15px 80px 5px 80px;
-    padding: 10px;
+    width: 180px;
+    padding: 15px;
 }
 .formulaire {
+    display: flex;
+    justify-content: center;
     background: linear-gradient(180deg, var(--fourth-color), #eee);
     height: 50px;
     box-shadow: inset 0px 2px 3px 0px #d8d8d8;
@@ -43,6 +48,11 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.positionarrow {
+    position: absolute;
+    left: 1px;
+    margin-left: -20px;
 }
 .arrow {
     font-size: 20px;
@@ -105,9 +115,11 @@ h1 {
     margin: 0 18px 0 25px;
     cursor: pointer;
 }
+.menunav :hover *:not(p, span) {
+    color: var(--first-color);
+}
 .menunav :hover {
     background-color: #f5edff;
-    color: var(--first-color);
 }
 span {
     position: relative;
@@ -172,6 +184,7 @@ span {
     width: 100%;
     height: 175px;
     border-radius: 19px 19px 0 0;
+    object-fit: cover;
 }
 .titlecard {
     margin: 3px 0 3px 15px;
