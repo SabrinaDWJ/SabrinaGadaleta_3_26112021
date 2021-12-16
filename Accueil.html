@@ -4,17 +4,18 @@
         <meta charset="utf-8">
         <script src="https://kit.fontawesome.com/5de27bfde3.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet"  href="CSS/normalize.css">
+        <link rel="stylesheet"  href="css/normalize.css">
+        <link rel="stylesheet" href="css/flex.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icone" type="images/png" href="images/ohmyfood.png" >
         <title>ohmyfood</title>
     </head>
     <body>
         <header>
-            <div class="imagelogo">
+            <div class="imagelogo flex flex-justify-center">
                 <img src="images/ohmyfood.png" alt="logo" class="logo">
             </div>
-            <form method="post" action="#" class="formulaire">
+            <form method="post" action="#" class="formulaire flex flex-justify-center">
                 <i class="fas fa-map-marker-alt iconemap"></i>
                 <label for="ville" class="searchbar">
                     <input type="text" name="ville" placeholder="Paris, Belleville" class="box">
@@ -27,20 +28,20 @@
             <a href="#Restaurants" class="searchrestaurants">Explorer nos restaurants</a>
         </section>
         <section class="section2">
-            <h2 class="titlemenu">Fonctionnement</h2>
-            <div class="menunav">
-                <a href="#" class="menu">
-                    <span>1</span>
+            <h2 class="titlemenu flex flex-justify-flex-start">Fonctionnement</h2>
+            <div class="menunav flex flex-column">
+                <a href="#" class="menu flex flex-justify-flex-start flex-align-center">
+                    <span class="flex flex-justify-center flex-align-center">1</span>
                     <i class="fas fa-mobile-alt iconemenu"></i>
                     <p class="textmenu">Choisissez un restaurant</p>
                 </a>
-                <a href="#" class="menu">
-                    <span>2</span>
+                <a href="#" class="menu flex flex-justify-flex-start flex-align-center">
+                    <span class="flex flex-justify-center flex-align-center">2</span>
                     <i class="fas fa-list-ul iconemenu"></i>
                     <p class="textmenu">Composez votre menu</p>
                 </a>
-                <a href="#" class="menu">
-                    <span>3</span>
+                <a href="#" class="menu flex flex-justify-flex-start flex-align-center">
+                    <span class="flex flex-justify-center flex-align-center">3</span>
                     <i class="fas fa-store iconemenu"></i>
                     <p class="textmenu">Dégustez au restaurant</p>
                 </a> 
@@ -48,9 +49,9 @@
         </section>
         <section class="section3">
             <h2 class="title2" id="Restaurants">Restaurants</h2>
-            <div class="containercards">
+            <div class="containercards flex flex-column">
                 <div class="card">
-                    <div class="newbox">
+                    <div class="newbox flex flex-justify-center flex-align-center">
                         <p>Nouveau</p>
                     </div>
                     <a href="La palette du gout.html">
@@ -60,16 +61,18 @@
                         <div>
                             <h3 class="titlecard">La palette du goût</h3>
                             <p class="pcard">Ménilmontant</p>
-                            <div class="iconeposition">
-                                <i class="far fa-heart heart"></i>
-                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="iconeposition">
+                            <i class="far fa-heart heart"></i>
                         </div>
                     </a>
                 </div>
             </div>
-            <div class="containercards">
+            <div class="containercards flex flex-column">
                 <div class="card">
-                    <div class="newbox">
+                    <div class="newbox flex flex-justify-center flex-align-center">
                         <p>Nouveau</p>
                     </div>
                     <a href="La note enchantée.html">
@@ -81,12 +84,14 @@
                             <p class="pcard">Charonne</p>
                         </div>
                     </a>
-                    <div class="iconeposition">
-                        <i class="far fa-heart heart"></i>
-                    </div>
+                    <a>
+                        <div class="iconeposition">
+                            <i class="far fa-heart heart"></i>
+                        </div>
+                    </a>
                 </div>
             </div>
-            <div class="containercards">
+            <div class="containercards flex flex-column">
                 <div class="card">
                     <a href="À la française.html">
                         <div>
@@ -97,12 +102,14 @@
                             <p class="pcard">Cité Rouge</p>
                         </div>
                     </a>
-                    <div class="iconeposition">
-                        <i class="far fa-heart heart"></i> 
-                    </div>
+                    <a>
+                        <div class="iconeposition">
+                            <i class="far fa-heart heart"></i> 
+                        </div>
+                    </a>
                 </div>
             </div>
-            <div class="containercards">
+            <div class="containercards flex flex-column">
                 <div class="card">
                     <a href="Le délice des sens.html">
                         <div>
@@ -113,27 +120,29 @@
                             <p class="pcard">Folie-Méricourt</p>
                         </div>
                     </a>
-                    <div class="iconeposition">
-                        <i class="far fa-heart heart"></i> 
-                    </div>
+                    <a>
+                        <div class="iconeposition">
+                            <i class="far fa-heart heart"></i> 
+                        </div>
+                    </a>
                 </div>
             </div>
         </section>
         <footer>
             <h3 class="titlefooter">ohmyfood</h3>
             <div>
-                <a href="#" class="stylelink">
+                <a href="#" class="stylelink flex flex-align-baseline">
                     <i class="fas fa-utensils"></i>
                     <p class="stylep1">Proposer un restaurant</p>
                 </a>
-                <a href="#" class="stylelink">
+                <a href="#" class="stylelink flex flex-align-baseline">
                     <i class="fas fa-hands-helping"></i>
                     <p class="stylep">Devenir partenaire</p>
                 </a>
-                <a href="#" class="stylelink">
+                <a href="#" class="stylelink flex flex-align-baseline">
                     <p class="stylep">Méntions légales</p>
                 </a>
-                <a href="#" class="stylelink">
+                <a href="#" class="stylelink flex flex-align-baseline">
                     <p class="stylep">Contact</p>
                 </a>
             </div>

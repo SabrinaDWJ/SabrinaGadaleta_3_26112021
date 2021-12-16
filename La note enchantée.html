@@ -4,13 +4,14 @@
         <meta charset="utf-8">
         <script src="https://kit.fontawesome.com/5de27bfde3.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet"  href="CSS/normalize.css">
+        <link rel="stylesheet"  href="css/normalize.css">
+        <link rel="stylesheet" href="css/flex.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icone" type="images/png" href="images/ohmyfood.png" >
         <title>ohmyfood</title>
     </head>
     <body>
-        <header class="headerstyle">
+        <header class="headerstyle flex flex-justify-center flex-align-center">
             <a href="Accueil.html" class="positionarrow"><i class="fas fa-arrow-left arrow"></i></a>
             <img src="images/ohmyfood.png" alt="logo" class="logo">
         </header>
@@ -20,8 +21,8 @@
             </div>
         </section>
         <section>
-            <div class="sectionmenu">
-                <div class="containertitle">
+            <div class="sectionmenu menu2">
+                <div class="containertitle flex flex-align-baseline">
                     <h1 class="menutitle">La note enchantée</h1>
                     <i class="far fa-heart hearttitle"></i>
                 </div>
@@ -32,7 +33,7 @@
                         <div>
                             <h3 class="items1">Ravioles de foie gras </h3>
                         </div>
-                        <div class="prix">
+                        <div class="prix flex flex-justify-space-between">
                             <p class="items2">Accompagnés de leur crème à la truffe</p>
                             <p class="items3">25€</p>
                         </div>
@@ -41,7 +42,7 @@
                         <div>
                             <h3 class="items1">Caviar osciètre</h3>
                         </div>
-                        <div class="prix">
+                        <div class="prix flex flex-justify-space-between">
                             <p class="items2">Sur blini à la farine de blé noir</p>
                             <p class="items3">35€</p>
                         </div>   
@@ -50,7 +51,7 @@
                         <div>
                             <h3 class="items1">Homard et espuma de potiron</h3>
                         </div>
-                        <div class="prix">
+                        <div class="prix flex flex-justify-space-between">
                             <p class="items2">Mariné aux zestes d'orange</p>
                             <p class="items3">20€</p>
                         </div>
@@ -59,7 +60,7 @@
                         <div>
                             <h3 class="items1">Foie gras de canard cuit entier</h3>
                         </div>
-                        <div class="prix">
+                        <div class="prix flex flex-justify-space-between">
                             <p class="items2">Confiture de figue et pain toasté</p>
                             <p class="items3">35€</p>
                         </div>
@@ -72,7 +73,7 @@
                         <div>
                             <h3 class="items1">Noix de coquilles Saint-Jacques</h3>
                         </div>
-                        <div class="prix">
+                        <div class="prix flex flex-justify-space-between">
                             <p class="items2">Sur lit de purée de céleri-rave</p>
                             <p class="items3">40€</p>
                         </div>
@@ -81,7 +82,7 @@
                         <div>
                             <h3 class="items1">Langoustine poêlée</h3>
                         </div>
-                        <div class="prix">
+                        <div class="prix flex flex-justify-space-between">
                             <p class="items2">Purée de patate douce</p>
                             <p class="items3">35€</p>
                         </div>
@@ -90,7 +91,7 @@
                         <div>
                             <h3 class="items1">Mijoté de queue de boeuf </h3>
                         </div>
-                        <div class="prix">
+                        <div class="prix flex flex-justify-space-between">
                             <p class="items2">Et riz sauvage aux zestes de citron</p>
                             <p class="items3">44€</p>
                         </div>
@@ -103,7 +104,7 @@
                         <div>
                             <h3 class="items1">Macaron noisette et chocolat</h3>
                         </div>
-                        <div class="prix">
+                        <div class="prix flex flex-justify-space-between">
                             <p class="items2">Glace au caramel brun et sel de Guérande</p>
                             <p class="items3">18€</p>
                         </div>
@@ -112,7 +113,7 @@
                         <div>
                             <h3 class="items1">Baba au rhum revisité</h3>
                         </div>
-                        <div class="prix">
+                        <div class="prix flex flex-justify-space-between">
                             <p class="items2">Avec son coulis de citron</p>
                             <p class="items3">22€</p>
                         </div>
@@ -121,30 +122,35 @@
                         <div>
                             <h3 class="items1">Tarte au citron meringuée</h3>
                         </div>
-                        <div class="prix">
+                        <div class="prix flex flex-justify-space-between">
                             <p class="items2">Déstructurée</p>
                             <p class="items3">23€</p>
                         </div>
                     </div>
                 </div> 
+                <div class="bcommander flex flex-justify-center">
+                    <a href="#" class="commander">Commander</a>
+                </div>   
             </div>   
         </section>
         <footer>
-            <h3>ohmyfood</h3>
-            <a href="#">
-                <i class="fas fa-utensils"></i>
-                <p>Proposer un restaurant</p>
-            </a>
-            <a href="#">
-                <i class="fas fa-hands-helping"></i>
-                <p>Devenir partenaire</p>
-            </a>
-            <a href="#">
-                <p>Méntions légales</p>
-            </a>
-            <a href="#">
-                <p>Contact</p>
-            </a>
+            <h3 class="titlefooter">ohmyfood</h3>
+            <div>
+                <a href="#" class="stylelink flex flex-align-baseline">
+                    <i class="fas fa-utensils"></i>
+                    <p class="stylep1">Proposer un restaurant</p>
+                </a>
+                <a href="#" class="stylelink flex flex-align-baseline">
+                    <i class="fas fa-hands-helping"></i>
+                    <p class="stylep">Devenir partenaire</p>
+                </a>
+                <a href="#" class="stylelink flex flex-align-baseline">
+                    <p class="stylep">Méntions légales</p>
+                </a>
+                <a href="#" class="stylelink flex flex-align-baseline">
+                    <p class="stylep">Contact</p>
+                </a>
+            </div>
         </footer>
     </body>
 </html>
