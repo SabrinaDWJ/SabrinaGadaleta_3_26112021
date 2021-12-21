@@ -1,0 +1,19 @@
+/* TEXT SIZE */
+.txt-xxs {font-size: 13px;}
+.txt-xs {font-size: 14px;}
+.txt-s {font-size: 15px;}
+.txt-m {font-size: 16px ;}
+.txt-l {font-size: 18px;}
+.txt-xl {font-size: 20px;}
+.txt-xxl {font-size: 25px;}
+.txt-title {font-size: 24px;}
+.txt-subtitle {font-size: 17px}
+
+/* TEXT WEIGHT */
+.txt-weight-little {font-weight: 300;}
+.txt-weight-medium {font-weight: 400;}
+.txt-weight-big {font-weight: 800;}
+.txt-weight-bold {font-weight: bold;}
+
+/* TEXT ALIGN */
+.txt-align-center {text-align: center;}
