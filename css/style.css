@@ -6,22 +6,36 @@
     --first-color: #9356dc;
     --second-color: #ff79da;
     --third-color: #99e2d0;
-    --fourth-color: #eaeaea;
+    --fourth-color: #ffffff;
+    --fifth-color: #000000;
+    --sixsth-color: #7e7e7e;
+    --seventh-color: #008766;
+    --background-color-1: #eee;
+    --background-color-2: #f7f7f7;
+    --background-color-3: #f5edff;
+    --background-color-4: #eaeaea;
+    --background-color-5: #f6f6f6;
+    --background-color-6: #353535;
+    --boxshadow-color-1: #d8d8d8;
+    --boxshadow-color-2: #bfbfbf;
+    --boxshadow-color-3: #e9e9e9;
+    --boxshadow-color-4: #efefef;
+
 }
 body {
     margin: 0px; font-family: Roboto, Shrikhand , sans-serif;
 }
 a {
-    text-decoration: none; color: black;
+    text-decoration: none; color: var(--fifth-color);
 }
 /* Header */
 .logo {
     width: 180px; padding: 15px;
 }
 .formulaire {
-    background: linear-gradient(180deg, var(--fourth-color), #eee);
+    background: linear-gradient(180deg, var(--background-color-4), var(--background-color-1));
     height: 50px;
-    box-shadow: inset 0px 2px 3px 0px #d8d8d8;
+    box-shadow: inset 0px 2px 3px 0px var(--boxshadow-color-1);
     padding: 0px 35px 0 40px;
 }
 .iconemap{
@@ -44,7 +58,7 @@ a {
 }
 /* Section 1 */
 .section1 {
-    text-align: center; background: linear-gradient(0deg, #f7f7f7, transparent); height: 260px;
+    text-align: center; background: linear-gradient(0deg, var(--background-color-2), transparent); height: 260px;
 }
 h1 {
     font-size: 24px;
@@ -65,9 +79,9 @@ h1 {
     padding: 15px;
     background: linear-gradient(168deg, var(--second-color), var(--first-color));
     border-radius: 25px;
-    box-shadow: 4px 4px 12px #bfbfbf;
+    box-shadow: 4px 4px 12px var(--boxshadow-color-2);
     font-family: Roboto;
-    color: white;
+    color: var(--fourth-color);
 } 
 /* Section 2 */
 .section2 {
@@ -80,9 +94,9 @@ h1 {
     gap: 25px;
 }
 .menu {
-    background: linear-gradient(180deg, #f7f7f7, transparent);
+    background: linear-gradient(180deg, var(--background-color-2), transparent);
     border-radius: 20px;
-    box-shadow: 0px 7px 12px 0px #eaeaea;
+    box-shadow: 0px 7px 12px 0px var(--background-color-4);
     min-height: 72px;
     margin: 0 18px 0 25px;
     cursor: pointer;
@@ -91,7 +105,7 @@ h1 {
     color: var(--first-color);
 }
 .menunav :hover {
-    background-color: #f5edff;
+    background-color: var(--background-color-3);
 }
 span {
     position: relative;
@@ -101,27 +115,27 @@ span {
     width: 24px;
     height: 24px;
     font-size: 13px;
-    color: white;
+    color: var(--fourth-color);
 }
 .iconemenu{
-    padding: 0 15px 0 0; color: #7e7e7e;
+    padding: 0 15px 0 0; color: var(--sixsth-color);
 }
 .textmenu {
     font-weight: bolder;
 }
 /* Section 3 */
 .section3 {
-    background-color: #f7f7f7; height: 1210px;
+    background-color: var(--background-color-2); height: 1210px;
 }
 .title2 {
     padding: 55px 0 0 20px; font-weight: 800; font-size: 25px;
 }
 .containercards {
-    background-color: white;
+    background-color: var(--fourth-color);
     border-radius: 25px;
     min-width: 250px;
     margin: 0px 15px 15px 15px;
-    box-shadow: 6px 6px 4px #e9e9e9;
+    box-shadow: 6px 6px 4px var(--boxshadow-color-3);
 }
 .card {
     width: 100%; height: 250px; position: relative;
@@ -133,7 +147,7 @@ span {
     width: 80px;
     height: 30px;
     background-color: var(--third-color);
-    color: #008766;
+    color: var(--seventh-color);
     border-radius: 3px;
     font-size: 16px;
     font-weight: bold;
@@ -153,13 +167,13 @@ span {
 .iconeposition {
     position: absolute; right: 10px; bottom: 40px;
 }
-.heart {
+.heartempty {
     font-size: 20px;
 }
-.heart:hover {
-    background: -webkit-linear-gradient(168deg, var(--second-color), var(--first-color));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.heartfull {
+    position: absolute;
+    right: 0px;
+    font-size: 20px;
 }
 /* Section Menu */
 .containerimage {
@@ -169,7 +183,7 @@ span {
     width: 100%; height: 175px; object-fit: cover;
 }
 .sectionmenu {
-    background-color: #f6f6f6;
+    background-color: var(--background-color-5);
     width: 100%;
     border-radius: 25px 25px 0 0;
     position: relative;
@@ -201,11 +215,11 @@ span {
     margin-bottom: 20px;
 }
 .listplates {
-    background-color: white;
+    background-color: var(--fourth-color);
     border-radius: 20px;
     height:60px;
     margin: 0 0 10px 0;
-    box-shadow: 0px 4px 4px 0px #efefef;
+    box-shadow: 0px 4px 4px 0px var(--boxshadow-color-4);
 }
 .items1 {
     margin: 0; padding: 10px 0 0 10px;
@@ -226,22 +240,22 @@ span {
     padding: 10px 40px;
     background: linear-gradient(168deg, var(--second-color), var(--first-color));
     border-radius: 25px;
-    box-shadow: 4px 4px 12px #bfbfbf;
-    color: white;
+    box-shadow: 4px 4px 12px var(--boxshadow-color-2);
+    color: var(--fourth-color);
 }
 /* Footer */
 footer {
-    background-color: #353535; height: 150px; padding: 25px;
+    background-color: var(--background-color-6); height: 150px; padding: 25px;
 }
 .titlefooter {
-    color: white;
+    color: var(--fourth-color);
     font-family: 'Shrikhand', sans-serif;
     font-size: 18px;
     font-weight: 400;
     margin: 0;
 }
 .stylelink{
-    color: white;
+    color: var(--fourth-color);
     font-size: 15px;
     font-weight: 400;
     gap: 10px;
