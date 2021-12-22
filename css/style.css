@@ -1,6 +1,34 @@
 /* Définition des polices personnalisées */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap');
 
+/* MEDIA QUERIES */
+@media only screen and (min-width: 992px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header, .section1, .section2, .section3, .section4, .section5 {
+        max-width: 700px;
+        width: 100%;
+    }
+    footer {
+        max-width: 650px;
+        width: 100%;
+    }
+    .positionarrow {
+        padding-left: 150px;
+    }
+    .containertitle {
+        display: flex;
+        justify-content: space-between;
+    }
+    .hearttitle {
+        padding-right: 20px;
+    }
+}
+
+
 /* Eléments principaux de la page */
 :root {
     --first-color: #9356dc;
@@ -20,7 +48,6 @@
     --boxshadow-color-2: #bfbfbf;
     --boxshadow-color-3: #e9e9e9;
     --boxshadow-color-4: #efefef;
-
 }
 body {
     margin: 0px; font-family: Roboto, Shrikhand , sans-serif;
