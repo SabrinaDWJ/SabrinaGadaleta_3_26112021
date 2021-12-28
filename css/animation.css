@@ -1,0 +1,108 @@
+/* Animation apparition progressive */
+.animation.n1 {
+    -webkit-animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards;
+	        animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards;
+}
+ @-webkit-keyframes fade-in-top {
+    0% {
+      -webkit-transform: translateY(-50px);
+              transform: translateY(-50px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in-top {
+    0% {
+      -webkit-transform: translateY(-50px);
+              transform: translateY(-50px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  .animation.n2 {
+    -webkit-animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards;
+    animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards;
+    animation-delay: 0.2s;
+}
+  .animation.n3 {
+    -webkit-animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards;
+    animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards;
+    animation-delay: 0.4s;
+  }
+  .animation.n4 {
+    -webkit-animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards;
+    animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards;
+    animation-delay: 0.6s;
+  }
+  .animation.n5 {
+    -webkit-animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards;
+    animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards;
+    animation-delay: 0.8s;
+  }
+  .animation.n6 {
+    -webkit-animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards;
+    animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards;
+    animation-delay: 1s;
+  }
+  .animation.n7 {
+    -webkit-animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards;
+    animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards;
+    animation-delay: 1.2s;
+  }
+  .animation.n8 {
+    -webkit-animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards;
+    animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards;
+    animation-delay: 1.4s;
+  }
+  .animation.n9 {
+    -webkit-animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards;
+    animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards;
+    animation-delay: 1.6s;
+  }
+  .animation.n10 {
+    -webkit-animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards;
+    animation: fade-in-top 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards;
+    animation-delay: 1.8s;
+  }
+  /* Animation selection plat */
+  .listplates:hover .listdescription .items2 {
+    width: calc(90% -55px);
+}
+.platescheck {
+    background-color: #99e2d0;
+    height: 60px;
+    width: 55px;
+    color: var(--fourth-color);
+    position: relative;
+    left: 100%;
+    bottom: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 20px 20px 0;
+    transition: transform 300ms cubic-bezier(0.79, 0.14, 0.34, 0.88);
+    opacity: 0;
+}
+.listplates:hover .platescheck {
+    transform: translateX(-55px);
+    opacity: 1;
+}
+.listplates:hover .items3 {
+    transform: translateX(-55px);
+}
+.platescheck .checkicone {
+    opacity: 0;
+    transition: transform 500ms 150ms, opacity 300ms 100ms ease-in-out ;
+}
+.listplates:hover .platescheck .checkicone {
+    transform: rotate(1turn);
+    opacity: 1;
+}
