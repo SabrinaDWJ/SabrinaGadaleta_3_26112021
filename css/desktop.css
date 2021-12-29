@@ -1,0 +1,55 @@
+.section2 {
+    height: auto;
+}
+.menunav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.menu {
+    width: 300px;
+}
+.iconemenu {
+    padding-left: 15px;
+    padding-right: 25px;
+}
+.section3 {
+    height: auto;
+}
+.allcards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.containercards {
+    min-width: 700px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.titlefooter {
+    font-size: 25px;
+}
+.footerslink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pf {
+    font-size: 18px;
+}
+.sectionmenu {
+    height: auto;
+    padding: 0 0 10px 0;
+}
+.containerlist {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.listplates {
+    min-width: 320px;
+}
