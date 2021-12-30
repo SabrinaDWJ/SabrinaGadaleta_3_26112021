@@ -220,11 +220,6 @@ span {
 .items3 {
     margin: 0;
 }
-.listdescription {
-    width: 90%;
-    min-width: 0;
-    transition: width 350ms;
-}
 .bcommander {
     margin: 40px 0;
 }

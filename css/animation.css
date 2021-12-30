@@ -73,17 +73,17 @@
     animation-delay: 1.8s;
   }
   /* Animation selection plat */
-  .listplates:hover .listdescription .items2 {
-    width: calc(90% -55px);
-}
+  .listplates {
+    overflow: hidden;
+  }
 .platescheck {
     background-color: #99e2d0;
     height: 60px;
     width: 55px;
     color: var(--fourth-color);
-    position: relative;
-    left: 100%;
-    bottom: 48px;
+    position: absolute;
+    left: calc(100%);
+    top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,9 +100,11 @@
 }
 .platescheck .checkicone {
     opacity: 0;
+    position: absolute;
     transition: transform 500ms 150ms, opacity 300ms 100ms ease-in-out ;
 }
 .listplates:hover .platescheck .checkicone {
     transform: rotate(1turn);
+    position: relative;
     opacity: 1;
 }
