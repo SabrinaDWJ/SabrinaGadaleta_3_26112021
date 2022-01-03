@@ -24,6 +24,17 @@
 .containercards {
     min-width: 700px;
 }
+.hearts:hover .icon {
+    opacity: 0;
+}
+.hearts:hover .icon2 {
+    opacity: 1;
+    background: linear-gradient(360deg, var(--second-color), var(--first-color));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 footer {
     display: flex;
     justify-content: center;
