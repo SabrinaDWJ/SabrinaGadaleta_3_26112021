@@ -24,6 +24,12 @@
 .containercards {
     min-width: 700px;
 }
+.icon {
+    transition-property: opacity;
+    transition-duration: 350ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
 .hearts:hover .icon {
     opacity: 0;
 }
