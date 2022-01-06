@@ -134,14 +134,17 @@ span {
     opacity: 0;
 }
 .icon {
-    font-size: 20px;
+    font-size: 18px;
     position: absolute;
     right: 10px;
-    bottom: 25px;
+    bottom: 35px;
     cursor: pointer;
 }
 .icon2{
     opacity: 0;
+}
+.heartplace {
+    bottom: 25px;
 }
 .check.check-heart:checked ~ .icon.check-heart { 
     opacity: 1;
@@ -190,6 +193,12 @@ span {
     width: 40px;
     margin-bottom: 20px;
 }
+.listdescription {
+    padding: 10px 0 0 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
 .listplates {
     background-color: var(--fourth-color);
     border-radius: 20px;
@@ -198,7 +207,7 @@ span {
     box-shadow: 0px 4px 4px 0px var(--boxshadow-color-4);
 }
 .items1 {
-    margin: 0; padding: 10px 0 0 10px;
+    margin: 0; 
 }
 .prix {
     padding: 0 10px;
