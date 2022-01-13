@@ -68,5 +68,5 @@ footer {
     flex-wrap: wrap;
 }
 .listplates {
-    min-width: 320px;
+    width: 320px;
 }

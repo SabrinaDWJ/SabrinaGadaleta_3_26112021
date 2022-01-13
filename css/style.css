@@ -134,11 +134,15 @@ span {
     opacity: 0;
 }
 .icon {
-    font-size: 18px;
+    font-size: 25px;
     position: absolute;
-    right: 10px;
-    bottom: 35px;
+    right: 18px;
+    bottom: 33px;
     cursor: pointer;
+    transition-property: opacity;
+    transition-duration: 350ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
 }
 .icon2{
     opacity: 0;
@@ -181,6 +185,7 @@ span {
     top: 30px;
     font-size: 24px;
 }
+
 .containermenu {
     padding: 0 10px;
 }
@@ -193,31 +198,83 @@ span {
     width: 40px;
     margin-bottom: 20px;
 }
-.listdescription {
-    padding: 10px 0 0 10px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-.listplates {
+.plat {
+    width: 100%;
+    display: flex;
     background-color: var(--fourth-color);
     border-radius: 20px;
     height:60px;
     margin: 0 0 10px 0;
     box-shadow: 0px 4px 4px 0px var(--boxshadow-color-4);
+    cursor: pointer;
+    overflow: hidden;
+}
+.listdescription {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    min-width: 60%;
 }
 .items1 {
     margin: 0; 
-}
-.prix {
-    padding: 0 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;   
+    white-space: nowrap;
 }
 .items2 {
     margin: 0; 
+    overflow: hidden;
+    text-overflow: ellipsis;   
+    white-space: nowrap;
 }
+.prix {
+    padding: 0 10px;
+  display:flex;
+}
+
 .items3 {
-    margin: 0;
+    margin: 36px 10px;
+  
 }
+.selection:hover + .plat .platecheck {
+    width: 55px;
+    
+  }
+.selection:hover + .plat .checkicone {
+  animation: tour 0.4s linear forwards;
+  opacity: 1;
+}
+.selection:checked + .plat .platecheck {
+  width: 55px;
+}
+
+.selection:checked + .plat .checkicone {
+  animation: tour 0.4s linear forwards;
+  opacity: 1;
+}
+
+.selection {
+  display: none;
+}
+
+.platecheck {
+    background-color: var(--background-color-7);
+    width: 0px;
+    height: 60px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 20px 20px 0;
+    transition: width 400ms ease-in-out;
+}
+.checkicone {
+  color: white;
+  position: absolute;
+  opacity: 0;
+}
+/* */
 .bcommander {
     margin: 40px 0;
 }
