@@ -238,7 +238,7 @@ span {
   
 }
 .selection:hover + .plat .platecheck {
-    width: 55px;
+    width: 60px;
     
   }
 .selection:hover + .plat .checkicone {
@@ -246,7 +246,7 @@ span {
   opacity: 1;
 }
 .selection:checked + .plat .platecheck {
-  width: 55px;
+  width: 60px;
 }
 
 .selection:checked + .plat .checkicone {
@@ -274,7 +274,7 @@ span {
   position: absolute;
   opacity: 0;
 }
-/* */
+/* Bouton */
 .bcommander {
     margin: 40px 0;
 }
