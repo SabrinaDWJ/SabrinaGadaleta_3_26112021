@@ -12,13 +12,13 @@ a {
 .logo {
     width: 180px; padding: 15px;
 }
-.formulaire {
+.form {
     background: linear-gradient(180deg, var(--background-color-4), var(--background-color-1));
     height: 50px;
     box-shadow: inset 0px 2px 3px 0px var(--boxshadow-color-1);
     padding: 0px 35px 0 40px;
 }
-.iconemap{
+.map-icon {
     padding: 15px 0 0 50px;
 }
 .box {
@@ -28,14 +28,14 @@ a {
     padding: 15px 0 15px 20px;
 }
 /* Header Menu*/
-.positionarrow {
+.arrow-position {
     position: absolute; left: 1px; margin-left: -20px;
 }
 .arrow {
     padding: 0 0 0 30px;
 }
 /* Section 1 */
-.section1 {
+.presentation {
     background: linear-gradient(0deg, var(--background-color-2), transparent); height: 260px;
 }
 h1 {
@@ -47,7 +47,7 @@ h1 {
     padding: 14px 30px;
     margin: 0px 0px 30px 0px;
 }
-.searchrestaurants {
+.restaurants-search {
     padding: 15px;
     background: linear-gradient(168deg, var(--second-color), var(--first-color));
     border-radius: 25px;
@@ -56,13 +56,13 @@ h1 {
     color: var(--fourth-color);
 } 
 /* Section 2 */
-.section2 {
+.functioning {
     text-align: center; margin: 50px 0 0 10px; height: 380px;
 }
-.titlemenu {
+.menu-title {
     padding: 0 0 10px 10px;
 }
-.menunav{
+.menu-nav{
     gap: 25px;
 }
 .menu {
@@ -73,10 +73,10 @@ h1 {
     margin: 0 18px 0 25px;
     cursor: pointer;
 }
-.menunav :hover *:not(p, span) {
+.menu-nav :hover *:not(p, span) {
     color: var(--first-color);
 }
-.menunav :hover {
+.menu-nav :hover {
     background-color: var(--background-color-3);
 }
 span {
@@ -88,17 +88,17 @@ span {
     height: 24px;
     color: var(--fourth-color);
 }
-.iconemenu{
+.menu-icon {
     padding: 0 15px 0 0; color: var(--sixsth-color);
 }
 /* Section 3 */
-.section3 {
+.restaurants {
     background-color: var(--background-color-2); height: 1210px;
 }
-.title2 {
+.title-restaurants {
     padding: 55px 0 0 20px; font-weight: 800; 
 }
-.containercards {
+.card-box {
     background-color: var(--fourth-color);
     border-radius: 25px;
     min-width: 250px;
@@ -108,7 +108,7 @@ span {
 .card {
     width: 100%; height: 250px; position: relative;
 }
-.newbox {
+.new-box {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -118,22 +118,22 @@ span {
     color: var(--seventh-color);
     border-radius: 3px;
 }
-.photocard {
+.photo {
     width: 100%;
     height: 175px;
     border-radius: 19px 19px 0 0;
     object-fit: cover;
 }
-.titlecard {
+.card-title {
     margin: 3px 0 3px 15px;
 }
-.pcard {
+.district {
     margin: 0 0 0 15px;
 }
 .check {
     opacity: 0;
 }
-.icon {
+.heart-icon {
     font-size: 25px;
     position: absolute;
     right: 18px;
@@ -144,28 +144,28 @@ span {
     transition-timing-function: ease-in-out;
     transition-delay: 0s;
 }
-.icon2{
+.heart-full {
     opacity: 0;
+    color: transparent;
 }
-.heartplace {
+.heart-place {
     bottom: 25px;
 }
-.check.check-heart:checked ~ .icon.check-heart { 
+.check.check-heart:checked ~ .heart-icon.check-heart { 
     opacity: 1;
     background: linear-gradient(360deg, var(--second-color), var(--first-color));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 /* Section Menu */
-.containerimage {
+.picture-container {
     width: 100%; height: 175px;
 }
-.image {
+.picture {
     width: 100%; height: 175px; object-fit: cover;
 }
-.sectionmenu {
+.menu-container {
     background-color: var(--background-color-5);
     width: 100%;
     border-radius: 25px 25px 0 0;
@@ -176,29 +176,29 @@ span {
 .menu2 {
     height: 1050px;
 }
-.menutitle {
+.restaurant-name {
     font-family: 'Shrikhand';
     padding-left: 20px;
 }
-.heartmenu {
+.heart-container {
     position: relative;
     top: 30px;
     font-size: 24px;
 }
 
-.containermenu {
+.menu-specialty {
     padding: 0 10px;
 }
-.titleplates {
+.meals-title {
     margin-bottom: 5px;
 }
-.linegreen {
+.green-line {
     background-color: var(--third-color);
     height: 4px;
     width: 40px;
     margin-bottom: 20px;
 }
-.plat {
+.meals {
     width: 100%;
     display: flex;
     background-color: var(--fourth-color);
@@ -209,56 +209,45 @@ span {
     cursor: pointer;
     overflow: hidden;
 }
-.listdescription {
+.meals-description {
     display: flex;
     flex-direction: column;
     width: 100%;
     padding: 10px;
     min-width: 60%;
 }
-.items1 {
+.meals-name {
     margin: 0; 
     overflow: hidden;
     text-overflow: ellipsis;   
     white-space: nowrap;
 }
-.items2 {
-    margin: 0; 
-    overflow: hidden;
-    text-overflow: ellipsis;   
-    white-space: nowrap;
-}
-.prix {
-    padding: 0 10px;
-  display:flex;
-}
-
-.items3 {
+.meals-price {
     margin: 36px 10px;
   
 }
-.selection:hover + .plat .platecheck {
+.selection:hover + .meals .meals-check {
     width: 60px;
     
   }
-.selection:hover + .plat .checkicone {
-  animation: tour 0.4s linear forwards;
-  opacity: 1;
+.selection:hover + .meals .icon-check {
+    animation: tour 0.4s linear forwards;
+    opacity: 1;
 }
-.selection:checked + .plat .platecheck {
-  width: 60px;
+.selection:checked + .meals .meals-check {
+    width: 60px;
 }
 
-.selection:checked + .plat .checkicone {
-  animation: tour 0.4s linear forwards;
-  opacity: 1;
+.selection:checked + .meals .icon-check {
+    animation: tour 0.4s linear forwards;
+    opacity: 1;
 }
 
 .selection {
-  display: none;
+    display: none;
 }
 
-.platecheck {
+.meals-check {
     background-color: var(--background-color-7);
     width: 0px;
     height: 60px;
@@ -269,10 +258,10 @@ span {
     border-radius: 0 20px 20px 0;
     transition: width 400ms ease-in-out;
 }
-.checkicone {
-  color: white;
-  position: absolute;
-  opacity: 0;
+.icon-check {
+    color: white;
+    position: absolute;
+    opacity: 0;
 }
 /* Bouton */
 .bcommander {
@@ -289,20 +278,20 @@ span {
 footer {
     background-color: var(--background-color-6); height: 150px; padding: 25px;
 }
-.titlefooter {
+.footer-title {
     color: var(--fourth-color);
     font-family: 'Shrikhand', sans-serif;
     margin: 0;
 }
-.stylelink{
+.footer-link {
     color: var(--fourth-color);
     font-size: 15px;
     font-weight: 400;
     gap: 10px;
 }
-.stylep1 {
+.footer-text-1 {
     margin: 0; padding: 10px 0 0 7px;
 }
-.stylep {
+.footer-text {
     margin: 0; padding: 10px 0 0 0;
 }
