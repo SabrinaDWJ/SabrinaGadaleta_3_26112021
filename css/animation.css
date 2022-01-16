@@ -160,8 +160,8 @@
       opacity: 1;
     }
   }
+  
   /* Animation selection plat */
-
   @keyframes tour {
     0% {
       transform: rotateZ(0deg)
@@ -170,7 +170,14 @@
       transform: rotateZ(360deg)
     }
   }
-
+  .selection:hover + .meals .icon-check {
+    animation: tour 0.4s linear forwards;
+    opacity: 1;
+}
+.selection:checked + .meals .icon-check {
+  animation: tour 0.4s linear forwards;
+  opacity: 1;
+}
 
 
 
