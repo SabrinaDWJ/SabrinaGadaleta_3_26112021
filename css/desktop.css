@@ -1,3 +1,4 @@
+/* Section Fonctionnement */
 .functioning {
     height: auto;
 }
@@ -6,6 +7,7 @@
     flex-direction: row;
     justify-content: space-around;
 }
+/* Section Restaurants */
 .menu {
     width: 300px;
 }
@@ -52,7 +54,7 @@
 .list-meals {
     width: 360px;
 }
-
+/* Footer */
 footer {
     display: flex;
     justify-content: center;
