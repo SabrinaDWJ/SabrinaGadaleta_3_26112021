@@ -55,6 +55,10 @@ h1 {
     font-family: Roboto;
     color: var(--fourth-color);
 } 
+.restaurants-search:hover {
+    filter: brightness(1.1);
+    box-shadow: 4px 4px 12px var(--sixsth-color);
+}
 /* Section 2 */
 .functioning {
     text-align: center; margin: 50px 0 0 10px; height: 380px;
@@ -264,15 +268,19 @@ span {
     opacity: 0;
 }
 /* Bouton */
-.bcommander {
+.button-box {
     margin: 40px 0;
 }
-.commander {
+.button {
     padding: 10px 40px;
     background: linear-gradient(168deg, var(--second-color), var(--first-color));
     border-radius: 25px;
     box-shadow: 4px 4px 12px var(--boxshadow-color-2);
     color: var(--fourth-color);
+}
+.button:hover {
+    filter: brightness(1.1);
+    box-shadow: 4px 4px 12px var(--sixsth-color);
 }
 /* Footer */
 footer {
