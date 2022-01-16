@@ -11,134 +11,134 @@
         <link rel="stylesheet" href="css/animation.css">
         <link rel="stylesheet"  media="screen and (min-width: 992px)" href="css/desktop.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" type="images/png" href="images/assiette.jpg" >
-        <title>ohmyfood!</title>
+        <link rel="icon" type="images/png" href="images/cropped.png" >
+        <title>OhMyFood!</title>
     </head>
     <body>
-        <div id="loader-wrapper" class="displayfade">
+        <div id="loader-wrapper" class="display-fade">
             <div id="loader"></div>
         </div>
         <header>
-            <div class="imagelogo flex flex-justify-center">
+            <div class="flex flex-justify-center">
                 <img src="images/ohmyfood.png" alt="logo" class="logo">
             </div>
-            <form method="post" action="#" class="formulaire flex flex-justify-center">
-                <i class="fas fa-map-marker-alt iconemap"></i>
-                <label for="ville" class="searchbar">
-                    <input type="text" name="ville" id="ville" placeholder="Paris, Belleville" class="box txt-s txt-weight-bold">
+            <form method="post" action="#" class="form flex flex-justify-center">
+                <i class="fas fa-map-marker-alt map-icon"></i>
+                <label for="city">
+                    <input type="text" name="city" id="city" placeholder="Paris, Belleville" class="box txt-s txt-weight-bold">
                 </label>
             </form>
         </header>
-        <section class="section1 txt-align-center">
+        <section class="presentation txt-align-center">
             <h1 class="txt-title txt-weight-bold txt-align-center">Réservez le menu qui vous convient</h1>
             <p class="subtitle txt-subtitle txt-weight-little txt-align-center">Découvrez des restaurants d'exception, séléctionnés par nos soins</p>
-            <a href="#Restaurants" class="searchrestaurants">Explorer nos restaurants</a>
+            <a href="#restaurant" class="restaurants-search">Explorer nos restaurants</a>
         </section>
-        <section class="section2">
-            <h2 class="titlemenu flex flex-justify-flex-start">Fonctionnement</h2>
-            <div class="menunav flex flex-column">
+        <section class="functioning">
+            <h2 class="menu-title flex flex-justify-flex-start">Fonctionnement</h2>
+            <div class="menu-nav flex flex-column">
                 <a href="#" class="menu flex flex-justify-flex-start flex-align-center">
                     <span class="flex flex-justify-center flex-align-center txt-xxs">1</span>
-                    <i class="fas fa-mobile-alt iconemenu"></i>
+                    <i class="fas fa-mobile-alt menu-icon"></i>
                     <p class="txt-weight-bold">Choisissez un restaurant</p>
                 </a>
                 <a href="#" class="menu flex flex-justify-flex-start flex-align-center">
                     <span class="flex flex-justify-center flex-align-center txt-xxs">2</span>
-                    <i class="fas fa-list-ul iconemenu"></i>
+                    <i class="fas fa-list-ul menu-icon"></i>
                     <p class="txt-weight-bold">Composez votre menu</p>
                 </a>
                 <a href="#" class="menu flex flex-justify-flex-start flex-align-center">
                     <span class="flex flex-justify-center flex-align-center txt-xxs">3</span>
-                    <i class="fas fa-store iconemenu"></i>
+                    <i class="fas fa-store menu-icon"></i>
                     <p class="txt-weight-bold">Dégustez au restaurant</p>
                 </a> 
             </div>     
         </section>
-        <section class="section3">
-            <h2 class="title2 txt-xxl" id="Restaurants">Restaurants</h2>
-            <div class="allcards">
-                <div class="containercards flex flex-column">
+        <section class="restaurants">
+            <h2 class="title-restaurants txt-xxl" id="restaurant">Restaurants</h2>
+            <div class="all-cards">
+                <div class="card-box flex flex-column">
                     <div class="card">
-                        <div class="newbox flex flex-justify-center flex-align-center txt-m txt-weight-bold">
+                        <div class="new-box flex flex-justify-center flex-align-center txt-m txt-weight-bold">
                             <p>Nouveau</p>
                         </div>
                         <a href="Lapalettedugout.html">
                             <div>
-                                <img src="images/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="La palette du goût" class="photocard">
+                                <img src="images/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="La palette du goût" class="photo">
                             </div>
                             <div>
-                                <h3 class="titlecard">La palette du goût</h3>
-                                <p class="pcard">Ménilmontant</p>
+                                <h3 class="card-title">La palette du goût</h3>
+                                <p class="district">Ménilmontant</p>
                             </div>
                         </a>
                         <div class="hearts">
                             <label for="heart">
                                 <input type="checkbox" id="heart" class="check-heart check"/>
-                                <i class="far fa-heart check-heart icon heartplace"></i>
-                                <i class="fas fa-heart check-heart icon icon2 heartplace"></i>
+                                <i class="far fa-heart check-heart heart-icon heart-place"></i>
+                                <i class="fas fa-heart check-heart heart-icon heart-full heart-place"></i>
                             </label>
                         </div>
                     </div>
                 </div>
-                <div class="containercards flex flex-column">
+                <div class="card-box flex flex-column">
                     <div class="card">
-                        <div class="newbox flex flex-justify-center flex-align-center txt-m txt-weight-bold">
+                        <div class="new-box flex flex-justify-center flex-align-center txt-m txt-weight-bold">
                             <p>Nouveau</p>
                         </div>
                         <a href="Lanoteenchantée.html">
                             <div>
-                                <img src="images/stil-u2Lp8tXIcjw-unsplash.jpg" alt="La note enchantée" class="photocard">
+                                <img src="images/stil-u2Lp8tXIcjw-unsplash.jpg" alt="La note enchantée" class="photo">
                             </div>
                             <div>
-                                <h3 class="titlecard">La note enchantée</h3>
-                                <p class="pcard">Charonne</p>
+                                <h3 class="card-title">La note enchantée</h3>
+                                <p class="district">Charonne</p>
                             </div>
                         </a>
                         <div class="hearts">
                             <label for="heart2">
                                 <input type="checkbox" id="heart2" class="check-heart check"/>
-                                <i class="far fa-heart check-heart icon heartplace"></i>
-                                <i class="fas fa-heart check-heart icon icon2 heartplace"></i>
+                                <i class="far fa-heart check-heart heart-icon heart-place"></i>
+                                <i class="fas fa-heart check-heart heart-icon heart-full heart-place"></i>
                             </label>
                         </div>
                     </div>
                 </div>
-                <div class="containercards flex flex-column">
+                <div class="card-box flex flex-column">
                     <div class="card">
                         <a href="Àlafrançaise.html">
                             <div>
-                                <img src="images/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="À la française" class="photocard">
+                                <img src="images/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="À la française" class="photo">
                             </div>
                             <div>
-                                <h3 class="titlecard">À la française</h3>
-                                <p class="pcard">Cité Rouge</p>
+                                <h3 class="card-title">À la française</h3>
+                                <p class="district">Cité Rouge</p>
                             </div>
                         </a>
                         <div class="hearts">
                             <label for="heart3">
                                 <input type="checkbox" id="heart3" class="check-heart check"/>
-                                <i class="far fa-heart check-heart icon heartplace"></i>
-                                <i class="fas fa-heart check-heart icon icon2 heartplace"></i>
+                                <i class="far fa-heart check-heart heart-icon heart-place"></i>
+                                <i class="fas fa-heart check-heart heart-icon heart-full heart-place"></i>
                             </label>
                         </div>
                     </div>
                 </div>
-                <div class="containercards flex flex-column">
+                <div class="card-box flex flex-column">
                     <div class="card">
                         <a href="Ledélicedessens.html">
                             <div>
-                                <img src="images/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Le délice des sens" class="photocard">
+                                <img src="images/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Le délice des sens" class="photo">
                             </div>
                             <div>
-                                <h3 class="titlecard">Le délice des sens</h3>
-                                <p class="pcard">Folie-Méricourt</p>
+                                <h3 class="card-title">Le délice des sens</h3>
+                                <p class="district">Folie-Méricourt</p>
                             </div>
                         </a>
                         <div class="hearts">
                             <label for="heart4">
                                 <input type="checkbox" id="heart4" class="check-heart check"/>
-                                <i class="far fa-heart check-heart icon heartplace"></i>
-                                <i class="fas fa-heart check-heart icon icon2 heartplace"></i>
+                                <i class="far fa-heart check-heart heart-icon heart-place"></i>
+                                <i class="fas fa-heart check-heart heart-icon heart-full heart-place"></i>
                             </label>
                         </div>
                     </div>
@@ -146,21 +146,21 @@
             </div>
         </section>
         <footer>
-            <h3 class="titlefooter txt-l txt-weight-medium">ohmyfood</h3>
-            <div class="footerslink">
-                <a href="#" class="stylelink flex flex-align-baseline txt-s">
+            <h3 class="footer-title txt-l txt-weight-medium">ohmyfood</h3>
+            <div class="footer-container">
+                <a href="#" class="footer-link flex flex-align-baseline txt-s">
                     <i class="fas fa-utensils"></i>
-                    <p class="stylep1 pf">Proposer un restaurant</p>
+                    <p class="footer-text-1 footer-desktop">Proposer un restaurant</p>
                 </a>
-                <a href="#" class="stylelink flex flex-align-baseline txt-s">
+                <a href="#" class="footer-link flex flex-align-baseline txt-s">
                     <i class="fas fa-hands-helping"></i>
-                    <p class="stylep pf">Devenir partenaire</p>
+                    <p class="footer-text footer-desktop">Devenir partenaire</p>
                 </a>
-                <a href="#" class="stylelink flex flex-align-baseline txt-s">
-                    <p class="stylep pf">Méntions légales</p>
+                <a href="#" class="footer-link flex flex-align-baseline txt-s">
+                    <p class="footer-text footer-desktop">Méntions légales</p>
                 </a>
-                <a href="mailto:ohmyfood@gmail.com" class="stylelink flex flex-align-baseline txt-s">
-                    <p class="stylep pf">Contact</p>
+                <a href="mailto:ohmyfood@gmail.com" class="footer-link flex flex-align-baseline txt-s">
+                    <p class="footer-text footer-desktop">Contact</p>
                 </a>
             </div>
         </footer>

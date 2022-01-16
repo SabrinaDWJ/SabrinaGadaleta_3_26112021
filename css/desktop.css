@@ -1,7 +1,7 @@
-.section2 {
+.functioning {
     height: auto;
 }
-.menunav {
+.menu-nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -9,36 +9,48 @@
 .menu {
     width: 300px;
 }
-.iconemenu {
+.menu-icon {
     padding-left: 15px;
     padding-right: 25px;
 }
-.section3 {
+.restaurants {
     height: auto;
 }
-.allcards {
+.all-cards {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-.containercards {
+.card-box {
     min-width: 700px;
 }
-.icon {
+.heart-icon {
     transition-property: opacity;
     transition-duration: 350ms;
     transition-timing-function: ease-in-out;
     transition-delay: 0s;
 }
-.hearts:hover .icon {
+.hearts:hover .heart-icon {
     opacity: 0;
 }
-.hearts:hover .icon2 {
+.hearts:hover .heart-full {
     opacity: 1;
     background: linear-gradient(360deg, var(--second-color), var(--first-color));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.menu-container {
+    height: auto;
+    padding: 0 0 10px 0;
+}
+.meals-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.list-meals {
+    width: 360px;
 }
 
 footer {
@@ -47,26 +59,15 @@ footer {
     flex-direction: column;
     align-items: center;
 }
-.titlefooter {
+.footer-title {
     font-size: 25px;
 }
-.footerslink {
+.footer-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.pf {
+.footer-desktop {
     font-size: 18px;
 }
-.sectionmenu {
-    height: auto;
-    padding: 0 0 10px 0;
-}
-.containerlist {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.listplates {
-    width: 320px;
-}
+
