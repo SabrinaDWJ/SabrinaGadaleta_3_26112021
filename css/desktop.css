@@ -32,11 +32,9 @@
     transition-timing-function: ease-in-out;
     transition-delay: 0s;
 }
-.hearts:hover .heart-icon {
-    opacity: 0;
-}
-.hearts:hover .heart-full {
-    opacity: 1;
+
+.heart-icon:hover {
+    font-weight: bold;
     background: linear-gradient(360deg, var(--second-color), var(--first-color));
     background-clip: text;
     -webkit-background-clip: text;

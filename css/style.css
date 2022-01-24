@@ -143,13 +143,7 @@ span {
     transition-property: opacity;
     transition-duration: 350ms;
     transition-timing-function: ease-in-out;
-    transition-delay: 0s;
-}
-.heart-full {
-    opacity: 0; color: transparent;
-}
-.heart-place {
-    bottom: 25px;
+    transition-delay: 0s;   
 }
 .check.check-heart:checked ~ .heart-icon.check-heart { 
     opacity: 1;
@@ -157,6 +151,7 @@ span {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-weight: bold;
 }
 /* Section Menu Pages Menu */
 .picture-container {
@@ -186,14 +181,18 @@ span {
     padding: 0 10px;
 }
 .meals-title {
-    margin-bottom: 5px;
+    margin-bottom: 20px; position: relative; padding-bottom: 5px;
 }
-.green-line {
-    background-color: var(--third-color);
-    height: 4px;
+.meals-title::before {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0px;
     width: 40px;
-    margin-bottom: 20px;
+    background-color: var(--third-color);
+    height: 3px;
 }
+
 .meals {
     width: 100%;
     background-color: var(--fourth-color);
